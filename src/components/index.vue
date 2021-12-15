@@ -137,7 +137,7 @@ export default {
   methods: {
     // 打开图鉴
     openBook() {
-
+      this.$router.push('/tujian')
     },
     // 打开修改用户页面
     changeName() {
